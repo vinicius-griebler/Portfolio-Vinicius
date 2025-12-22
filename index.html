@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinicius Griebler - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">VG</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou o Vinícius Griebler</h1>
+          <h2>Desenvolvedor Front-End</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/vin%C3%ADcius-griebler/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5551992461445" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/vinicius-griebler" class="outer-shadow"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="./src/imagens/foto-vinicius.jpg" alt="foto do perfil do Ricardo" />
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="./src/imagens/dreamina-2025-08-16-2957-crie uma imagem profissional, mantenha m....jpeg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Seja bem vindo ao meu Portfólio</p>
+            </strong>
+              <strong>Me chamo Vinícius Griebler estudante de Análise e desenvolvimento de Sistemas e desenvolvedor Front-End em
+              formação!</strong>
+          <p>Iniciei minha carreira profissional na indústria e atualmente atuo em uma empresa de tecnologia, prestando suporte a um Sistema MES (Manufaturing Execution System) responsável pela coleta e análise de dados de produção das máquinas. Paralelamente, mantenho minha paixão por programação e desenvolvimento de software, com grande interesse em criar soluções eficientes e inovadoras. Acredito que minhas habilidades técnicas, aliadas à experiência prática, podem contribuir de forma significativa para a resolução de problemas e para o crescimento de equipes de desenvolvimento.
+          </p>
+
+          <p>Além da minha atuação profissional, valorizo atividades que contribuem para o meu equilíbrio pessoal. Gosto de viajar, aproveitar o clima praiano, estar em contato com familiares e amigos, também aprecio muito maratona de séries e filmes. Além disso, busco me manter constantemente atualizado sobre as novidades e tendências do mundo da tecnologia.</p>
+
+          <p>
+            Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar
+            feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já
+            aprendi.
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="https://drive.google.com/file/d/1YAScY9ZfsOQEAQbZ6HKwDaGzEpUKDgrT/view?usp=sharing" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Possuo conhecimento básico em JavaScript, com experiência na criação de scripts voltados para manipulação de elementos do navegador e interação com sistemas e sites. Já desenvolvi funcionalidades que envolvem manipulação do DOM, eventos, ajustes dinâmicos de interface e automação simples de comportamentos no navegador.</p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Tenho habilidades avançadas em HTML, aplicando as melhores práticas de marcação para construir estruturas sólidas, organizadas e semanticamente corretas. Desenvolvo o "esqueleto" das páginas de forma eficiente, priorizando acessibilidade, SEO e padrões modernos da web. Minha experiência inclui a criação de layouts bem estruturados, utilizando tags semânticas apropriadas para garantir clareza, desempenho e fácil manutenção do código.!</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Meu conhecimento avançado em CSS me ajuda a aplicar técnicas modernas para estilizar páginas, sites e sistemas de forma visualmente atraente e coerente com paletas de cores bem definidas. Desenvolvo interfaces responsivas, assegurando uma experiência consistente em dispositivos mobile, tablet e desktop, utilizando media queries e boas práticas de design responsivo. Também faço uso de propriedades avançadas, como flexbox e grid, garantindo layouts organizados, fluidos e de fácil manutenção.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Faço o uso do GitHub como plataforma principal para versionamento e publicação dos meus projetos. Por meio dele, organizo meu código, acompanho o histórico de alterações e mantenho meus repositórios atualizados. Além disso, utilizo boas práticas de commit e estruturação de projetos, facilitando colaboração, documentação e acompanhamento da evolução das minhas habilidades de desenvolvimento.</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Utilizo também muito o Git como ferramenta de versionamento de código, garantindo o controle eficiente de alterações e a organização de projetos. Minha experiência inclui colaboração em equipe, utilizando boas práticas de branch, merge e commit, o que permite desenvolvimento conjunto de forma estruturada, rastreabilidade das mudanças e maior qualidade no código entregue.</p>
+        </div>
+        <div class="informacoes react">
+          <div class="logo">
+            <i class="devicon-react-plain" id="React"></i>
+          </div>
+          <h3>React</h3>
+          <p>Estou em fase de aprendizado em React, desenvolvendo componentes reutilizáveis para páginas web. Tenho praticado a criação de interfaces utilizando conceitos como componentização, props e organização de código, buscando evoluir continuamente no desenvolvimento de aplicações front-end.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <a href="https://vinicius-griebler.github.io/Projeto-Luxury-Car/">
+            <img src="./src/imagens/projeto-luxury.png" alt="Luxury-Car" />
+            <h3>Projeto Luxury-Car</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto realizado utilizando HTML, CSS, JavaScript e IA para as Imagens</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://vinicius-griebler.github.io/Projeto-Agencia-XYZ/">
+            <img src="./src/imagens/foto-projetoagencia.png" alt="Agencia XYZ" />
+            <h3>Projeto Agência XYZ</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto desenvolvido utilizando HTML5, CSS3 e JavaScript</p>
+              <p>🔗 Ver o Projeto</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://vinicius-griebler.github.io/Projeto-GTA/">
+            <img src="./src/imagens/projeto-gta.png" alt="Projeto GTA" />
+            <h3>Projeto GTA</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto inspirado em GTA utilizando HTML5, CSS3, JavaScript</p>
+              <p>🔗 Ver o Projeto</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://vinicius-griebler.github.io/Projeto-Dragon-Ball/">
+            <img src="./src/imagens/Projeto Dragon Ball.png" alt="Projeto Dragon-Ball" />
+            <h3>Projeto Dragon-Ball</h3>
+            <div class="informacoes-projeto">
+              <p>Utilizei HTML5, CSS3 e JavaScript para desenvolver a page inspirada em Dragon-Ball</p>
+              <p>🔗 Ver o Projeto</p>
+            </div>
+          </a>
+        </div>
+        <div class="projeto">
+          <a href="https://vinicius-griebler.github.io/Validando-formulario/">
+            <img src="./src/imagens/Projeto-formulario.png" alt="Projeto Formulário" />
+            <h3>Projeto Formulário</h3>
+            <div class="informacoes-projeto">
+              <p>Neste projeto de Validação de formulário utilizei HTML5, CSS3, Javascript</p>
+              <p>🔗 Ver o Projeto</p>
+            </div>
+          </a>
+        </div>
+        <div class="projeto">
+          <a href="https://vinicius-griebler.github.io/Api-do-Github/">
+            <img src="./src/imagens/projeto-api-github.gif" alt="Projeto API do Github" />
+            <h3>Projeto API do Github</h3>
+            <div class="informacoes-projeto">
+              <p>Neste projeto que desenvolvi utilizei HTML5, CSS3, JavaScript, API REST Pública do Github</p>
+              <p>🔗 Ver o Projeto</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/vin%C3%ADcius-griebler/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5551992461445" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/vinicius-griebler" class="outer-shadow"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
