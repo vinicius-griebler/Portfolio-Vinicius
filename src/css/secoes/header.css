@@ -5,8 +5,8 @@
 .header .logo {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
-    color: var(--cor-branca);
-    border: 2px solid var(--cor-branca);
+    color: white;
+    border: 2px solid white;
     border-radius: 50%;
     width: 65px;
     height: 65px;

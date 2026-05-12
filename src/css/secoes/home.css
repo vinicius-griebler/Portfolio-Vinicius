@@ -35,8 +35,14 @@
 .home .img-home .img-box img {
     width: 100%;
     border-radius: 50%;
-    border: 7px solid var(--cor-branca);
+    border: 7px solid white;
+    transition: 0.3s ease;
 }
+
+.home .img-home .img-box img:hover {
+    border-color: black;
+}
+
 
 .home .texto-home p {
     font-family: var(--fonte-secundaria);

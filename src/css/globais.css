@@ -9,7 +9,11 @@ html {
   }
   
   body {
-    background-color:black;
+    background: linear-gradient(to right, rgb(81, 78, 78), #10015a);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
@@ -70,7 +74,7 @@ html {
     max-width: 100%;
     padding: 60px 0;
   }
-  
+
   .section-title h2 {
     font-size: var(--fonte-gigante);
     font-weight: 500;
@@ -79,13 +83,15 @@ html {
   
   .botao {
     font-size: var(--fonte-grande);
+    color:black;
+    font-weight: 600;
     padding: 10px 20px;
     border-radius: 20px;
     transition: all .3s ease;
-    background-color: var(--cor-primaria);
+    background-color: white;
   }
   
   .botao:hover {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-);
     color: var(--cor-branca);
   }
