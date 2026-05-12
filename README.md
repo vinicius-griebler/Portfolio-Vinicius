@@ -1,4 +1,4 @@
-# 🌐 Portfólio Vinicius Griebler - Desenvolvedor Front-End
+# 🌐 Portfólio Vinicius Griebler - Desenvolvedor Full Stack
 
 Bem-vindo(a) ao meu portfólio de **Desenvolvedor Full Stack**!  
 Este projeto reúne alguns dos meus principais trabalhos, demonstrando minhas habilidades em desenvolvimento de sistemas, modernas, responsivas e focadas na experiência do usuário.
